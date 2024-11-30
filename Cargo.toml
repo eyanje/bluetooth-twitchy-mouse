@@ -1,0 +1,16 @@
+[package]
+name = "bluetooth-twitchy-mouse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bluer = { version = "0.17.3", features = ["bluetoothd", "id", "l2cap", "rfcomm"] }
+bluez-hci = { git = "https://github.com/eyanje/bluez-hci", version = "0.1.0" }
+btmgmt = "0.2.5"
+hid-device-class = { git = "https://github.com/eyanje/hid-device-class", version = "0.1.0" }
+hid-device-configuration = { git = "https://github.com/eyanje/hid-device-configuration", version = "0.1.0" }
+hid-device-id = { git = "https://github.com/eyanje/hid-device-id", version = "0.1.0" }
+hid-device-report = { git = "https://github.com/eyanje/hid-device-report", version = "0.1.0" }
+hidp = { version = "0.1.0", path = "../hidp" }
+libc = "0.2.162"
+tokio = { version = "1.41.1", features = ["rt-multi-thread", "sync"] }
