@@ -548,6 +548,7 @@ source = "git+https://github.com/eyanje/hid-device-report#5c9482cd7fbec9a9bd62ec
 [[package]]
 name = "hidp"
 version = "0.1.0"
+source = "git+https://github.com/eyanje/hidp#0796eb91665c446cf05412949752052d5440e2ca"
 
 [[package]]
 name = "ident_case"
